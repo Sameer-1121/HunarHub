@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-body: "Work Sans", sans-serif;
+
+  --color-cream: #FDF6EC;
+  --color-cream-deep: #FBEEDD;
+  --color-forest: #1F4D3A;
+  --color-forest-dark: #163829;
+  --color-terracotta: #C1440E;
+  --color-terracotta-light: #E07A3F;
+  --color-ink: #241F1A;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: #ffffff;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}

@@ -1,0 +1,8 @@
+export const PRODUCTS = [
+  { id: 1, name: 'Terracotta Vase', maker: 'Meena Artisans', price: '₹799', rating: 4.8, img: 'vase', category: 'Home Decor', desc: 'Hand-thrown terracotta vase, finished with traditional Rajasthani motifs. Each piece is unique and made using age-old pottery techniques.' },
+  { id: 2, name: 'Handmade Tote Bag', maker: 'Crafty Hands', price: '₹1,299', rating: 4.7, img: 'tote', category: 'Accessories', desc: 'Durable canvas tote bag with hand-stitched detailing, crafted using sustainable materials by local artisans.' },
+  { id: 3, name: 'Wooden Wall Art', maker: 'Rustic Crafts', price: '₹899', rating: 4.9, img: 'wallart', category: 'Home Decor', desc: 'Intricately carved wooden wall art piece, hand-finished by master woodworkers from Saharanpur.' },
+  { id: 4, name: 'Embroidered Cushion', maker: 'Savitri Kumhar', price: '₹599', rating: 4.6, img: 'cushion', category: 'Home Decor', desc: 'Soft cotton cushion cover with traditional embroidery work, adding warmth to any living space.' },
+  { id: 5, name: 'Leather Sandals', maker: 'Ramesh Cobbler', price: '₹1,099', rating: 4.8, img: 'sandals', category: 'Footwear', desc: 'Genuine leather sandals, hand-stitched for comfort and durability, made in small batches.' },
+  { id: 6, name: 'Hand-stitched Kurta', maker: 'Arjun Tailors', price: '₹1,499', rating: 4.7, img: 'kurta', category: 'Apparel', desc: 'Custom-fit cotton kurta, tailored by hand with attention to traditional stitching detail.' },
+];
